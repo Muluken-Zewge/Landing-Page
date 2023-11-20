@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 20px 300px 100px 300px;
+    padding: 20px 400px 100px;
 }
 
 ul{
@@ -31,7 +31,7 @@ a{
 }
 .hero{
     background-color: #1f2937;
-    padding: 0 300px 100px 300px;
+    padding: 0 400px 100px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -67,7 +67,7 @@ button{
 }
 
 .container{
-    padding: 0 300px;
+    padding: 0 400px 100px;
 }
 
 .container p{
@@ -103,4 +103,25 @@ button{
     align-items: center;
     justify-content: center;
     gap: 8px;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 500px 80px;
+}
+.quote p{
+    margin: 0;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h5{
+    align-self: flex-end;
+    margin: 0;
+    padding-top: 8px;
 }
